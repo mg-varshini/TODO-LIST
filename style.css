@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(35deg,black,blue);
+    padding: 10px;
+}
+.box{
+    width: 500px;
+    background-color:palevioletred ;
+    padding: 20px;
+    margin: 100px auto; 
+    border-radius: 10px;
+    
+}
+.head{
+    background-color: blue;
+    border-radius: 10px;
+    color:white;
+    padding:10px;
+    width:400px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.form{
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.form input{
+    outline:none;
+    border: none;
+    width: 300px;
+    background: transparent;
+    position: relative;
+}
+.form button{
+    position: absolute;
+    right:730px;
+    top: 215px;
+     background-color: blue;
+     border: none;
+     padding:5px 10px 5px;
+     border-radius: 10px;
+    color: white;
+   
+}
+ul{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+
+}
+
+ul li {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #444; 
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: white; 
+}
+
+ul li button:hover {
+    color: #ff4081; 
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border-radius: 5px;
+}
+   
+ul .edit-text.completed{
+    
+    text-decoration: line-through;
+}
+ul .edit-text:hover{
+    cursor: pointer;
+}
